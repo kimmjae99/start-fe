@@ -1,0 +1,22 @@
+.news{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
+#wrap{
+    display: flex;
+}
+.wrap{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+}
+.info{
+    display: flex;
+    margin: 0 auto;
+}
+.buttons{
+    margin: auto;
+}

@@ -173,10 +173,15 @@
 // console.log(result);
 
 // Quiz13
+// const items = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+// const pageSize = 3;
 
+// const getStartIndexByPage = function (page) {
+//   return (page - 1) * pageSize;
+// };
 // Quiz14
 // const phoneNumber = `010-1234-1234`;
-// const pattern = /\d{3}-\d{4}-\d{4}/;
+// const pattern = /\d{3}-\d{4}-\d{4}/; // \d -> 뒤에 숫자만 올 수 있게
 
 // console.log(pattern.test(phoneNumber));
 

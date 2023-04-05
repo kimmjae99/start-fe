@@ -1,0 +1,20 @@
+#board{
+    width: 400px;
+    height: 400px;
+    border: 5px solid gray;
+}
+span{
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+}
+.black{
+    background-color: #000;
+}
+.white{
+    background-color: #FFF;
+}
+.red{
+    background-color: red;
+}
