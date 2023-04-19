@@ -7,11 +7,17 @@ const $pw = document.querySelector('input[name="pw"]');
 const $form = document.querySelector('form');
 const $result = document.querySelector('#result');
 
+let result = '';
+
 
 $form.addEventListener('submit', function(evnet){
     evnet.preventDefault();
 
-    const result = ($id.value === id && $pw.value === pw)? 'success':'error'
+    if($id.value === id && $pw.value === pw){
+      result = 'success';
+    } else {
+      result = 'error';
+    }
     
     $result.className = result;
     $result.innerHTML = result;
