@@ -33,7 +33,7 @@ $bug.addEventListener('click', (event) => {
 $box.addEventListener('click', (event) => {
     life -= 1;
     $life.innerHTML = life;
-    if(life == 0){
+    if(life === 0){
         window.alert('GameOver,,,');
         clearInterval(movingTime);
         setTimeout(function(){location.reload();},3000); 
