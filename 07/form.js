@@ -11,8 +11,8 @@ const $result = document.querySelector('#result');
 $form.addEventListener('submit', function(evnet){
     evnet.preventDefault();
 
-    const text = ($id.value === id && $pw.value === pw)? 'success':'error'
+    const result = ($id.value === id && $pw.value === pw)? 'success':'error'
     
-    $result.className = text;
-    $result.innerHTML = text;
+    $result.className = result;
+    $result.innerHTML = result;
 });
